@@ -9,7 +9,8 @@
   <title>Neon Yeti — Indie Game Studio</title>
   <meta name="description" content="Neon Yeti is a small indie game studio from Türkiye making mobile games such as MicroSurvivor.">
   <meta name="theme-color" content="#07060f">
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/neonyeti-mascot-96.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@600;700;900&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
 
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="./"><img src="assets/logo.svg" alt="" width="34" height="34">NEON YETI</a>
+      <a class="brand" href="./"><img src="assets/neonyeti-mascot-96.png" alt="" width="34" height="34">NEON YETI</a>
       <nav class="nav" aria-label="Main">
         <a href="./" aria-current="page"><span data-l="tr">Ana sayfa</span><span data-l="en">Home</span><span data-l="de">Start</span></a>
         <a href="microsurvivor/">MicroSurvivor</a>
@@ -38,8 +39,8 @@
   <main id="main">
     <div class="wrap">
       <section class="hero">
-        <img class="logo yeti-glow flicker" src="assets/logo.svg" alt="Neon Yeti logo" width="220" height="220">
-        <h1><span class="neon-cyan">NEON</span> <span class="neon-magenta">YETI</span></h1>
+        <img class="logo brand-logo flicker" src="assets/neonyeti-logo-512.png" srcset="assets/neonyeti-logo-512.png 512w, assets/neonyeti-logo-1024.png 1024w" sizes="(min-width: 700px) 320px, 75vw" alt="" width="512" height="512">
+        <h1 class="sr-only">Neon Yeti</h1>
         <p class="lead" data-l="tr">Türkiye'den küçük, bağımsız bir oyun stüdyosu. Neon tabeladan fırlamış bir yetinin enerjisiyle, kısa ama bağımlılık yapan mobil oyunlar yapıyoruz.</p>
         <p class="lead" data-l="en">A small independent game studio from Türkiye. Powered by a yeti that escaped from a neon sign, we make short, highly replayable mobile games.</p>
         <p class="lead" data-l="de">Ein kleines unabhängiges Spielestudio aus der Türkei. Angetrieben von einem Yeti, der aus einer Leuchtreklame entkommen ist, entwickeln wir kurzweilige Mobile-Games mit hohem Wiederspielwert.</p>
@@ -49,6 +50,7 @@
         <h2 id="games-h"><span data-l="tr">Oyunlarımız</span><span data-l="en">Our games</span><span data-l="de">Unsere Spiele</span></h2>
         <div class="cards">
           <article class="card glow">
+            <img class="card-icon" src="assets/microsurvivor-icon-256.png" alt="" width="72" height="72">
             <span class="tag" lang="en">Android</span>
             <h3>MicroSurvivor</h3>
             <p data-l="tr">Dikey ekranda oynanan bir survivor-like: bağışıklık sisteminin akyuvarı olarak virüs ve bakteri dalgalarına karşı hayatta kal.</p>

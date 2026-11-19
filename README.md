@@ -9,7 +9,7 @@ Hosted on GitHub Pages.
 | `microsurvivor/` | MicroSurvivor game page |
 | `microsurvivor/privacy/` | MicroSurvivor privacy policy (TR + EN) — the URL for Google Play Console |
 | `app-ads.txt` | Ad network authorization (paste lines from the LevelPlay / Unity dashboard) |
-| `assets/` | `style.css`, `lang.js`, `logo.svg` |
+| `assets/` | `style.css`, `lang.js`, Neon Yeti logo / mascot PNGs, MicroSurvivor icon |
 
 ## Languages
 Every text exists in the HTML for each language and carries `data-l="tr"`, `data-l="en"` or `data-l="de"`.
