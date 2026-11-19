@@ -1,0 +1,5 @@
+# app-ads.txt for Neon Yeti (neonyeti developer website)
+# TODO: Paste the app-ads.txt lines from the Unity LevelPlay / Unity Ads dashboard below,
+#       one line per ad network, e.g. (EXAMPLE FORMAT ONLY, do not use as-is):
+#       unity.com, 1234567, DIRECT, 96cabb5fbdde37a7
+# Then commit and push. This file must be reachable at https://<your-domain>/app-ads.txt
